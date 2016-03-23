@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>会换行的段落</h1>
+    <p>这是一个会换行的段落，这是一个会换行的段落，<q>这里是一段引用引用引用</q>&nbsp;&nbsp;<a href="#">&nbsp;这里是没起作用的超链接</a> &nbsp;这里是空格：&nbsp;&nbsp;&nbsp;&nbsp;下面我要换行了：<br />现在我要加粗了<strong>这是加粗版</strong>接下来我要变斜了<em>啦啦啦</em></p>
+    <img src="images/icon2.png"/>
+    <h2>会编号的段落</h2>
+    <p>
+        这是一个有符号的段落。<br />
+        <ul class="hot">
+            <li>这是第一段</li>
+            <li>这是第一段</li>
+            <li>这是第一段</li>
+            <li>这是第一段</li>
+            <li>这是第一段</li>
+        </ul>
+        <ol>
+            <li>我会自己编序号</li>
+            <li>我会自己编序号</li>
+            <li>我会自己编序号</li>
+            <li>我会自己编序号</li>
+        </ol>
+    </p>
+    <h3>有表格的段落</h3>
+    <p>
+        这是一个有表格的段落。<br />
+        <table>
+            <thead>这是标题</thead>
+            <tbody>
+                <tr>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                </tr>
+                <tr>
+                    <td>张三</td>
+                    <td>男</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>宋仲基</td>
+                   <td>男</td>
+                    <td>31</td>
+                </tr> 
+                <tr>
+                <td>乔妹</td>
+                <td>女</td>
+                <td>永远18</td> 
+                </tr>                          
+            </tbody>
+        </table>
+    </p>
+    <form>
+        <!--输入框为文字-->
+        <label>请输入邮箱地址：</label>
+        <input  type="text" value="请输入邮箱地址"/>
+        <!--输入框为密码-->
+        <label>请输入密码：</label>
+        <input  type="password" /><br />
+        <!--单选-->
+        <label>性别：</label>
+        <input type="radio" value="男" />
+        <label>男</label>
+        <input type="radio" value="女" />
+        <label>女</label><br />
+        <!--下拉框-->
+        <label for="city">城市：</label>
+        <select>
+            <option value="北京">北京</option>
+            <option value="上海">上海</option>
+            <option value="南京">南京</option>
+            <option value="无锡">无锡</option>
+            <option value="苏州">苏州</option>
+        </select><br />
+        <!--多选-->
+        <label>爱好：</label>
+        <input type="checkbox" id="sports" value="运动" />
+        <label for="sports">运动</label>
+        <input type="checkbox" id="art" value="艺术" />
+        <label for="art">艺术</label>
+        <input type="checkbox" id="science" value="科学" />
+        <label for="science">科学</label><br />
+        <!--滚动条-->
+        <label for="description">个人描述：</label>
+        <textarea name="description" id="description" cols="20" rows="16">这里可以输入很多文字，因为我会自己换行，这里可以输入很多文字，因为我会自己换行，啊啊啊啊啊啊啊啊这里可以输入很多文字，因为我会自己换行，啊啊啊啊啊啊啊啊这里可以输入很多文字，因为我会自己换行，啊啊啊啊啊啊啊啊</textarea>
+        <input type="submit" value="确认提交" />
+    </form>
+    <footer>版权所有©槑</footer>
+</body>
+</html>
